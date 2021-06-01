@@ -97,10 +97,10 @@ def init():
 
         #connecting to DB
         conn = pyodbc.connect('Driver={SQL Server};'
-                            'Server=10.9.0.102\\flxdb;'
-                            'Database=FLxDB2016;'
-                            'UID=a22349;'
-                            'PWD=gfhjkm22349;')
+                            'Server=;'
+                            'Database=;'
+                            'UID=;'
+                            'PWD=;')
 
         #creating instance for query
         cursor = conn.cursor()
